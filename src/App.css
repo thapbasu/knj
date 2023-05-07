@@ -5,6 +5,14 @@
   font-family: 'PT Sans', sans-serif;
 
 }
+html,body{
+  overflow: hidden;
+}
+.page-wrapper{
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 .home,
 .services,
