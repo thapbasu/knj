@@ -1,68 +1,47 @@
 .img-description {
-    position: absolute;
-    top: 65%;
-    font-size: 3rem;
-    left: 23%;
-    color: white;
+  position: absolute;
+  top: 65%;
+  font-size: 3rem;
+  left: 23%;
+  color: white;
 }
-.carousel{
-    display: flex;
-    justify-content: center;
+.carousel {
+  display: flex;
+  justify-content: center;
 }
-.carousel .slide{
-    height: 80vh;
+.carousel .slide {
+  height: 80vh;
 }
-.carousel .slide-img{
-    max-height: 100%;
-    width: auto;
+.carousel .slide-img {
+  max-height: 100%;
+  width: auto;
 }
-.image{
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+.image {
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
-ul.thumbs.animated{
-    display: none;
-}
-
-.icons{
-    border: 2px solid black;
-    position: fixed;
-    top: 30%;
-    left: 0%;
-    width: 200px;
+ul.thumbs.animated {
+  display: none;
 }
 
-@media only screen and (max-width: 1200px){
-    .carousel{
-        height: 90vh;
-
-    }
-    .carousel .slide img{
-        width: 100vw;
-    }
-    
+@media only screen and (max-width: 1200px) {
+  .carousel .slide img {
+    width: 100vw;
+  }
 }
-@media only screen and (max-width: 900px){
-    .carousel{
-        height: 80vh;
-
-    }
-
-    
+@media only screen and (max-width: 900px) {
+  .carousel {
+    height: 60vh;
+  }
 }
-@media only screen and (max-width: 750px){
-    .carousel{
-        height: 70vh;
-
-    }
-
+@media only screen and (max-width: 750px) {
+  .carousel {
+    height: 50vh;
+  }
 }
-@media only screen and (max-width: 650px){
-    .carousel{
-        height: 50vh;
-
-    }
-
-    
+@media only screen and (max-width: 650px) {
+  .carousel {
+    height: 40vh;
+  }
 }

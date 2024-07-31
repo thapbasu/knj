@@ -1,26 +1,64 @@
-h1{
-    text-align: center;
-    font-size: 40px;
-    color: #ec1d25;
-    font-weight: normal;
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #ec1d25;
+  font-weight: normal;
 }
-h1 span{
-font-size: 50px;
-font-weight: bold;
+h1 span {
+  font-size: 50px;
+  font-weight: bold;
 }
-.welcomeImg{
-    border-radius: 25px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
-    height: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 20px;
+.welcomeImg {
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  height: 75vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  margin-bottom: 20px;
 }
-.welcome-para{
-    padding: 0px 16rem;
-    line-height: 2rem;
+.welcome-para {
+  padding: 0px 16rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-family: normal;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+@media only screen and (max-width: 1100px) {
+  .mt-10 {
+    margin-top: -12rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .welcome-para {
+    padding: 0px 11rem;
+    line-height: 1rem;
     letter-spacing: 0.1rem;
-    text-align: justify;
+    font-size: 14px;
+  }
+  h1 span {
+    font-size: 40px;
+  }
+  .welcomeImg {
+    height: 60vh;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .welcome-para {
+    padding: 0px 4rem;
+    line-height: 1rem;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .welcomeImg {
+    height: 40vh;
+  }
+  h1 span {
+    font-size: 30px;
+  }
 }
