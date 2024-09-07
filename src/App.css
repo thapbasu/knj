@@ -52,3 +52,203 @@ body {
   color: #fff;
   font-size: 100px;
 }
+
+/* about */
+.about-us-section {
+  background-color: #f9f9f9;
+  padding: 60px 0;
+}
+
+.about-us-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-us-heading {
+  font-size: 3rem;
+  color: #ec1d25;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about-us-text {
+  font-size: 1.2rem;
+  color: #333;
+  max-width: 900px;
+  margin: 0 auto 50px auto;
+}
+
+.highlight {
+  color: #ec1d25;
+  font-weight: bold;
+}
+
+.about-us-mission,
+.about-us-courses,
+.about-us-teaching {
+  margin: 50px 0;
+}
+
+.mission-heading,
+.courses-heading,
+.teaching-heading {
+  font-size: 2rem;
+  color: #ec1d25;
+  margin-bottom: 20px;
+}
+
+.mission-text,
+.courses-text,
+.teaching-text {
+  font-size: 1.2rem;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.about-us-team {
+  margin-top: 50px;
+}
+
+.team-heading {
+  font-size: 2.5rem;
+  color: #ec1d25;
+  margin-bottom: 30px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 250px;
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member-name {
+  font-size: 1.5rem;
+  color: #ec1d25;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.team-member-role {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* offering */
+.offerings-section {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+}
+
+.offerings-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.offerings-heading {
+  font-size: 3rem;
+  color: #ec1d25;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.offerings-intro {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.offerings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.offering-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.offering-card:hover {
+  transform: translateY(-10px);
+}
+
+.offering-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.offering-title {
+  font-size: 1.5rem;
+  color: #ec1d25;
+  margin-top: 15px;
+}
+
+.offering-description {
+  font-size: 1rem;
+  color: #666;
+  padding: 15px 20px;
+}
+
+/* map */
+.map-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.map-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.map-heading {
+  font-size: 2.5rem;
+  color: #ec1d25;
+  margin-bottom: 20px;
+}
+
+.map-description {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.map-embed-container {
+  width: 100%;
+
+  position: relative;
+}

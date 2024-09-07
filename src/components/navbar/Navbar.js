@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import Button from '../Button/Button';
-import './Navbar.css';
+import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import Button from "../Button/Button";
+import "./Navbar.css";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -22,7 +22,7 @@ const Navbar = () => {
   useEffect(() => {
     showButton();
   }, []);
-  window.addEventListener('resize', showButton);
+  window.addEventListener("resize", showButton);
   return (
     <>
       <div className="header-1">
@@ -45,26 +45,26 @@ const Navbar = () => {
             Raj Global Studies <i className="fab fa-typo3"></i>
           </Link>
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="#about" className="nav-links" onClick={closeMobileMenu}>
+              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About us
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="#offering"
+                to="/offerings"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Offering{' '}
+                Offering{" "}
               </Link>
             </li>
             <li className="nav-item">
@@ -91,7 +91,7 @@ const Navbar = () => {
       </nav>
       <div className="icun">
         <a href="#" className="facebook">
-          {' '}
+          {" "}
           facebook <i className="fab fa-facebook-f"></i>
         </a>
         <a href="#" className="youtube">
